@@ -194,12 +194,12 @@ label#menu-inicio-label > span::after {
   content: " Inicio"; 
 }
 
-label#menu-articulos-label > span::after {
-  content: " Artículos"; 
+label#menu-alumnos-label > span::after {
+  content: " Alumnos"; 
 }
 
-label#menu-clientes-label > span::after {
-  content: " Clientes"; 
+label#menu-profesores-label > span::after {
+  content: " Profesores"; 
 }
 
 
@@ -275,10 +275,10 @@ DISEÑO DE TABLAS ADAPTATIVO
   padding: 4px 8px;
 }
 
-.sort-table th.articulos-nombre,
-.sort-table th.articulos-precio,
-.sort-table th.clientes-nombre,
-.sort-table th.clientes-apellidos
+.sort-table th.alumnos-nombre,
+.sort-table th.alumnos-precio,
+.sort-table th.profesores-nombre,
+.sort-table th.profesores-apellidos
  {
   width: 30% !important;
 }
@@ -287,14 +287,14 @@ DISEÑO DE TABLAS ADAPTATIVO
   width: 40% !important;
 }
 
-.sort-table .articulos-nombre,
-.sort-table .clientes-nombre  
+.sort-table .alumnos-nombre,
+.sort-table .profesores-nombre  
 {
   font-weight: bold;
 }
 
-.sort-table .articulos-nombre small,
-.sort-table .clientes-nombre small {
+.sort-table .alumnos-nombre small,
+.sort-table .profesores-nombre small {
   font-weight: normal;
 }
 
@@ -302,8 +302,8 @@ DISEÑO DE TABLAS ADAPTATIVO
 /* Responsive table full */
 @media (max-width: 767px) {
   label#menu-inicio-label    > span::after,
-  label#menu-articulos-label > span::after,
-  label#menu-clientes-label  > span::after 
+  label#menu-alumnos-label > span::after,
+  label#menu-profesores-label  > span::after 
   {
     content: none; 
   }
@@ -396,29 +396,29 @@ DISEÑO DE TABLAS ADAPTATIVO
     padding: 10px;
   }
 
-  .sort-table th.articulos-nombre,
-  .sort-table th.articulos-precio,
-  .sort-table th.clientes-nombre,
-  .sort-table th.clientes-apellidos,
+  .sort-table th.alumnos-nombre,
+  .sort-table th.alumnos-precio,
+  .sort-table th.profesores-nombre,
+  .sort-table th.profesores-apellidos,
   .sort-table th.operacion {
     width: 100px !important;
   }
 
-  .sort-table td.articulos-nombre:before,
-  .sort-table td.clientes-nombre:before
+  .sort-table td.alumnos-nombre:before,
+  .sort-table td.profesores-nombre:before
   {
     display: none;
   }
 
-  .sort-table td.articulos-nombre,
-  .sort-table td.clientes-nombre
+  .sort-table td.alumnos-nombre,
+  .sort-table td.profesores-nombre
   {
     letter-spacing: .03em;
     padding-left: 14px;
   }
 
-  .sort-table td.articulos-nombre > input 
-  .sort-table td.clientes-nombre > input
+  .sort-table td.alumnos-nombre > input 
+  .sort-table td.profesores-nombre > input
   {
     font-weight:bold;
   }

@@ -6,8 +6,8 @@
 
 
 let colecciones = {
-    articulos: { nombre: 'string', precio: 'number' },
-    clientes: { nombre: 'string', apellidos: 'string' }
+    alumnos: { nombre: 'string', apellidos: 'string' },
+    profesores: { nombre: 'string', apellidos: 'string' }
 };
 
 let index = `
@@ -19,18 +19,18 @@ let index = `
          <br>
          <ul style="padding-left: 50px">
            <li><b>Inicio</b>: Esta página con información.</li>
-           <li><b>Artículos</b>: Permite realizar operaciones CRUD sobre los artículos de la BD. </li>
-           <li><b>Clientes</b>: Permite realizar operaciones CRUD sobre los clientes de la BD.</li>
+           <li><b>alumnos</b>: Permite realizar operaciones CRUD sobre los alumnos de la BD. </li>
+           <li><b>profesores</b>: Permite realizar operaciones CRUD sobre los profesores de la BD.</li>
          </ul>
      </div>`;
 
-
+     alumnos
 
 window.addEventListener('load', function () {
 
     let i = document.getElementById('inicio');
-    let a = document.getElementById('articulos');
-    let c = document.getElementById('clientes');
+    let a = document.getElementById('alumnos');
+    let c = document.getElementById('profesores');
 
     i.innerHTML = index;
     i.style.display = 'block';
@@ -41,15 +41,15 @@ window.addEventListener('load', function () {
         c.style.display = 'none';  c.innerHTML = '';       
     });
 
-    document.getElementById('menu-articulos').addEventListener('click', function (e) {
-        verDocumentos('articulos');
+    document.getElementById('menu-alumnos').addEventListener('click', function (e) {
+        verDocumentos('alumnos');
         a.style.display = 'block';
         i.style.display = 'none';
         c.style.display = 'none';  c.innerHTML = '';       
     });
 
-    document.getElementById('menu-clientes').addEventListener('click', function (e) {
-        verDocumentos('clientes');
+    document.getElementById('menu-profesores').addEventListener('click', function (e) {
+        verDocumentos('profesores');
         c.style.display = 'block';
         i.style.display = 'none';  
         a.style.display = 'none';  a.innerHTML = '';
