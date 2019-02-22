@@ -6,8 +6,8 @@
 
 
 let colecciones = {
-    alumnos: { nombre: 'string', apellidos: 'string' },
-    profesores: { nombre: 'string', apellidos: 'string' }
+    alumnos: { nombre: 'string', apellidos: 'string', edad:'number', dni:'string', notaMedia:'number'},
+    profesores: { nombre: 'string', apellidos: 'string' , edad:'number', dni: 'string', especialidad: 'string'}
 };
 
 let index = `
