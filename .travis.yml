@@ -1,7 +1,8 @@
-language: node_js
-node_js:
-  - "8"
 before_install:
 - npm install n
 - sudo ./node_modules/.bin/n stable
 - rm -rf ~/.nvm
+
+language: node_js
+node_js:
+  - "8"
