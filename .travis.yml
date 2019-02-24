@@ -1,7 +1,5 @@
 before_install:
-- npm install n
-- sudo ./node_modules/.bin/n stable
-- rm -rf ~/.nvm
+sudo $(which npm) test
 
 language: node_js
 node_js:
