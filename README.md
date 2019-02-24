@@ -4,18 +4,25 @@
 # Introducción
 
 Este es un proyecto realizado como práctica para el módulo de 2ºDAW. Actualmente no está desplegado, pero con suerte dentro de poco lo estará en Heroku.
-La aplicación está desarrollada además como PWA (Progressive Web App). 
+
+La aplicación está desarrollada además como PWA (Progressive Web App).
+
 Si la abres con Android y pulsas en la opción "Añadir a pantalla de inicio", se te instalará dicha aplicación en tu móvil como si tratará de una aplicación nativa. 
+
 Para realizarlo en iOS, basta con abrir el menú de opciones que está situado en la parte inferior (El icono del centro) y seleccionar la opción “Añadir a pantalla de inicio”.
+
 Se utilizan los mínimos recursos (ya sean estos paquetes, librerías o frameworks). Tambien se intenta minimizar el número de archivos utilizados. Este proyecto NO necesita de frameworks como Angular, React o Vue para el FrondEnd, ya que hacemos uso de VanillaJS ( MEAN, MERN, MEVN ).
+
 La interfaz está desarrollada en forma de SPA (Single Page Application).
 
 Los archivos utilizados son los siguientes:
+```
 ├── package.json
 ├── package-lock.json
 ├── server.js
 ├── models.js
 ├── routes.js
+├── config.js
 ├── public
 │   ├── manifest.json
 │   ├── service-worker.js
@@ -25,42 +32,66 @@ Los archivos utilizados son los siguientes:
 │   ├── style.css
 │   └── app.js
 └── README.md
+```
 
 Para el BackEnd los archivos necesarios son:
+
     • package.json 
-    • package-lock.json 
+    
+    • package-lock.json
+    
     • index.js 
+    
     • models.js 
+    
     • routes.js 
     
 Para el FrontEnd los archivos necesarios son:
+
     • public/favicon.png 
+    
     • public/index.html 
+    
     • public/style.css 
+    
     • public/app.js 
     
 Para Aplicación Web Progresiva
+
     • public/manifest.json 
+    
     • public/service-worker.js 
+    
     • public/images/icons/* 
     
 #Despliegue en local
 
 Para poder ejecutar este proyecto en tu equipo local, sigue los siguientes pasos:
+
     1. Instala el servidor MongoDB. Consulta la página oficial. 
+    
     2. Clona este repositorio en tu equipo: 
+    
       git  clone  https://github.com/Diegocd/Instituto.git
+      
       cd   tiendaw
+      
     3. Instala los módulos necesarios; 
+    
       sudo apt install nodejs npm
+      
       npm  install express nodemon yarn
+      
     4. Inicia la aplicación 
+    
       npm  start
+      
     5. Abre en el navegador web la URL http://localhost:3000. 
     
 # Despliegue en Docker
 
 Si deseas mantener limpio tu equipo y no tener que instalar Nodejs ni MongoDB, entonces puedes utilizar Docker.
+
 Para ello, sigue los siguientes pasos:
 
     1. Instala el software para Docker. En Ubuntu: 
