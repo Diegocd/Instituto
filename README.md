@@ -148,13 +148,15 @@ En las fechas en las que escribo esto (Diciembre 2018), el soporte para Aplicaci
 # Instalacción en PC o Portátil
 
 El escritorio usado ha sido KDE bajo sistema operativo GNU/Linux. Las especificaciones concretas se muestran a continuación:
+
     • Google Chrome Versión 71.0.3578.98 (Build oficial) (64 bits) 
     • Distribución Linux KDE neon 18.04 LTS 
         ◦ KDE Frameworks 5.53.0 
         ◦ Qt 5.11.2 (compilado con 5.11.2) 
         ◦ El sistema de ventanas xcb 
 
-Para instalar en el escritorio a través del navegador Chrome, seguimos los siguientes pasos.
+Para instalar en el escritorio a través del navegador Chrome, seguimos los siguientes pasos:
+
     1. Pulsamos en el menú del navegador y luego en Instalar ... 
     2. Confirmamos 
     3. Una vez instalada nos aparecerá un icono en el escritorio. 
@@ -169,14 +171,24 @@ Por último, si deseamos desinstalar la aplicación, bastará con pulsar en el m
 # Instalación en móvil Android o iOS
 
 Cuando accedemos a la URL de la aplicación mediante el navegador Chrome, y éste detecta que se trata de una PWA, nos mostrará en la parte inferior de la pantalla del móvil un mensaje para añadir la aplicación web a la pantalla de inicio. El proceso es similar a la instalación de una aplicación nativa, aunque suele ser menos pesado y ocupar menos espacio de disco.
+
 A continuación se muestran algunas capturas de pantalla.
+
 Primero pulsamos en el mensaje Añadir(icono del centro en el caso de iOS) ... a la pantalla de inicio que aparece en la parte inferior de la pantalla.
+
 Confirmamos.
+
 Y podemos ver los detalles de la instalación.
 
 Si no nos aparece el mensaje de instalación en la parte inferior de la pantalla, tenemos otra forma de hacerlo mediante el uso del menú del navegador.
+
 Una vez instalada la aplicación se nos creará un acceso directo en la pantalla de nuestro móvil.
+
 Si abrimos la aplicación veremos algo similar a lo siguiente.
+
 A todos los efectos la aplicación aparece en Android como si de una aplicación nativa se tratese. Observese que no aparece incrustada dentro del navegador, sino como aplicación independiente.
-Para desinstalar una aplicación en Android bastará con arrastrarla a la papelera. Para desinstalarla en iOS mantén el icono pulsado unos segundos hasta que se ponga a temblar y presiona la “X” que aparece en una esquina del icono. Acepta y listo.
+
+Para desinstalar una aplicación en Android bastará con arrastrarla a la papelera. Para desinstalarla en iOS mantén el icono pulsado unos segundos hasta que se ponga a temblar y presiona la “X” que aparece en una esquina del icono. 
+
+Acepta y listo.
 
