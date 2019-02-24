@@ -95,12 +95,19 @@ Si deseas mantener limpio tu equipo y no tener que instalar Nodejs ni MongoDB, e
 Para ello, sigue los siguientes pasos:
 
     1. Instala el software para Docker. En Ubuntu: 
+    
       sudo  apt  install  docker.io  docker-compose
+      
       sudo  adduser  `id -un`  docker
+      
       Cierra sesión y vuelve a iniciarla para cargar la nueva configuración de usuario ya añadido al grupo docker.
+      
     2. Clona este repositorio en tu equipo: 
+    
       git  clone  https://github.com/Diegocd/Instituto.git  &&   cd   Instituto
+      
     3. Dentro de la carpeta que contiene el código, ejecuta: 
+    
       docker-compose  up  -d
       
 NOTA: Los puertos 80 y 27017 no deben estar ocupados por ningún servicio previo. Son necesarios para los servicios de Node y Mongo que lanzará Docker.
@@ -108,18 +115,28 @@ NOTA: Los puertos 80 y 27017 no deben estar ocupados por ningún servicio previo
 # PWA: Aplicación Web Progresiva
 
 La tecnología PWA es relativamente nueva, iniciandose en el año 2015 bajo el auspicio de Google.
+
 Dicha tecnología pretende, mediante la aplicación de pequeñas adaptaciones, usar las tecnologías web (HTML + CSS + Javascript) para el desarrollo de aplicaciones de escritorio y móviles.
+
 Como el lector entendido en el asunto comprenderá rápidamente, las implicaciones de tal tecnología son enormes:
+
     • Desarrollo para web, para escritorio y para móvil. Todo en uno. 
+    
     • Simplificación del desarrollo. 
+    
         ◦ "No es necesario" aprender lenguajes como Java o Swift. 
+        
         ◦ "No es necesario" desarrollar de forma nativa (SDKs para Android e iOS). 
+        
         ◦ "No es necesario" desarrollar de forma híbrida (Frameworks Cordova, React Native, Angular Ionic. Electron para el             
            escritorio) 
+           
     • Uso de Web APIs, las cuales son bastantes, muchas de ellas aún en desarrollo: fetch, websockets, geolocalización, audio,      
       speech, ... 
+      
 En las fechas en las que escribo esto (Diciembre 2018), el soporte para Aplicaciones Web Progresivas no está completamente soportado en todos los entornos. Entornos en los que se sabe que están soportadas son:
-    • PC y portátiles 
+
+    • PC y portátiles
         ◦ Windows 10 (Chrome 70+) 
         ◦ GNU/Linux (Chrome 70+) 
         ◦ Chrome OS (Chrome 67+) 
