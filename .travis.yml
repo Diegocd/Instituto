@@ -1,14 +1,4 @@
 language: node_js
 node_js:
-- 6
-- 4
-script: bash ./deploy.sh
-env:
-  global:
-  - ENCRYPTION_LABEL: "a55c8da1c39b"
-  - SOURCE_BRANCH: "source"
-  - TARGET_BRANCH: "master"
-  - TARGET_BRANCH: "master"
-cache:
-  directories:
-    - node_modules
+- 8
+script: "sudo $(which npm) test"
