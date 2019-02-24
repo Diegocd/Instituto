@@ -58,7 +58,7 @@ Para poder ejecutar este proyecto en tu equipo local, sigue los siguientes pasos
       npm  start
     5. Abre en el navegador web la URL http://localhost:3000. 
     
-#Despliegue en Docker
+# Despliegue en Docker
 
 Si deseas mantener limpio tu equipo y no tener que instalar Nodejs ni MongoDB, entonces puedes utilizar Docker.
 Para ello, sigue los siguientes pasos:
@@ -74,7 +74,7 @@ Para ello, sigue los siguientes pasos:
       
 NOTA: Los puertos 80 y 27017 no deben estar ocupados por ningún servicio previo. Son necesarios para los servicios de Node y Mongo que lanzará Docker.
 
-#PWA: Aplicación Web Progresiva
+# PWA: Aplicación Web Progresiva
 
 La tecnología PWA es relativamente nueva, iniciandose en el año 2015 bajo el auspicio de Google.
 Dicha tecnología pretende, mediante la aplicación de pequeñas adaptaciones, usar las tecnologías web (HTML + CSS + Javascript) para el desarrollo de aplicaciones de escritorio y móviles.
@@ -97,7 +97,7 @@ En las fechas en las que escribo esto (Diciembre 2018), el soporte para Aplicaci
         ◦ Android 
         ◦ iOS (parcial, a partir de iOS 11.3) 
         
-#Instalacción en PC o Portátil
+# Instalacción en PC o Portátil
 
 El escritorio usado ha sido KDE bajo sistema operativo GNU/Linux. Las especificaciones concretas se muestran a continuación:
     • Google Chrome Versión 71.0.3578.98 (Build oficial) (64 bits) 
@@ -114,11 +114,11 @@ Para instalar en el escritorio a través del navegador Chrome, seguimos los sigu
     5. No obstante, es más cómodo hacerlo desde el icono del escritorio.
     6. Una vez hecho, veremos una ventana con la aplicación.
 
-#Desinstalacción en PC o Portátil
+# Desinstalacción en PC o Portátil
 
 Por último, si deseamos desinstalar la aplicación, bastará con pulsar en el menú de la ventana y luego en Desinstalar
 
-#Instalación en móvil Android o iOS
+# Instalación en móvil Android o iOS
 
 Cuando accedemos a la URL de la aplicación mediante el navegador Chrome, y éste detecta que se trata de una PWA, nos mostrará en la parte inferior de la pantalla del móvil un mensaje para añadir la aplicación web a la pantalla de inicio. El proceso es similar a la instalación de una aplicación nativa, aunque suele ser menos pesado y ocupar menos espacio de disco.
 A continuación se muestran algunas capturas de pantalla.
