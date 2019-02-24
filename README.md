@@ -1,7 +1,7 @@
 # Instituto
 ## PWA + FullStack (MongoDB, Express, NodeJS)
  
-#Introducción
+## Introducción
 
 Este es un proyecto realizado como práctica para el módulo de 2ºDAW. Actualmente no está desplegado, pero con suerte dentro de poco lo estará en Heroku.
 La aplicación está desarrollada además como PWA (Progressive Web App). 
