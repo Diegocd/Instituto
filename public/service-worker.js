@@ -10,7 +10,8 @@ const CACHE_ASSETS = [
   '/',
   '/index.html',
   '/style.css',
-  '/app.js'
+  '/app.js',
+  '/images/velez.jpg'
 ];
 
 // INSTALL

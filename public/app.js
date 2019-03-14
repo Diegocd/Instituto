@@ -11,18 +11,18 @@ let colecciones = {
 };
 
 let index = `
-     <div style="margin: 50px">
-         <h1>Tiendaw</h1>
-         <small><b>Ejemplo didáctico: PWA y Fullstack MEN (MongoDB + Express + NodeJS) </b></small>
-         <br><br>
-         <p>Esta SPA (Single Page Application) ofrece 3 opciones:</p>
-         <br>
-         <ul style="padding-left: 50px">
-           <li><b>Inicio</b>: Esta página con información.</li>
-           <li><b>alumnos</b>: Permite realizar operaciones CRUD sobre los alumnos de la BD. </li>
-           <li><b>profesores</b>: Permite realizar operaciones CRUD sobre los profesores de la BD.</li>
-         </ul>
-     </div>`;
+        <div style="margin: 50px;background-color:rgba(104, 31, 187,0.4);color:black;">
+            <h1>Instituto</h1>
+            <small><b>Ejemplo didáctico: PWA y Fullstack MEN (MongoDB + Express + NodeJS) </b></small>
+            <br><br>
+            <p><b>Esta SPA (Single Page Application) ofrece 3 opciones:</b></p>
+            <br>
+            <ul style="padding-left: 50px">
+                <li><b>Inicio: Esta página con información.</b></li>
+                <li><b>Alumnos: Permite realizar operaciones CRUD sobre los alumnos de la BD.</b> </li>
+                <li><b>Profesores: Permite realizar operaciones CRUD sobre los profesores de la BD.</b></li>
+             </ul>
+         </div>`;
 
      alumnos
 
