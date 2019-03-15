@@ -11,7 +11,7 @@ let colecciones = {
 };
 
 let index = `
-        <div style="margin: 50px;background-color:rgba(104, 31, 187,0.4);color:black;">
+        <div style="margin: 50px;background-color:rgba(104, 31, 187,0.8);color:white;text-shadow: -2px -2px 1px #000;">
             <h1>Instituto</h1>
             <small><b>Ejemplo didáctico: PWA y Fullstack MEN (MongoDB + Express + NodeJS) </b></small>
             <br><br>
@@ -212,6 +212,7 @@ function json2table(collection, jsonData, classes) {
 
     let celdaSinDatos = (campo) => `
 <td data-label="${collection}-${campo}" class="${collection}-${campo}">
+<label class="dale">${campo}</label>
 <input id="${collection}.${campo}" 
     ${colecciones[collection][campo] == 'number'
             ? 'type="number" min="0" max="9999.99" step=".01" style="text-align: right;"'
@@ -221,6 +222,7 @@ function json2table(collection, jsonData, classes) {
 
     let celdaConDatos = (documento, campo) => `
 <td data-label="${collection}-${campo}" class="${collection}-${campo}">
+<label class="dale">${campo}</label>
 <input id="${documento._id}.${campo}" 
     ${colecciones[collection][campo] == 'number'
             ? 'type="number" min="0" max="9999.99" step=".01" style="text-align: right;" '
